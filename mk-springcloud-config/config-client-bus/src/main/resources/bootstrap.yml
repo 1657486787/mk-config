@@ -1,0 +1,16 @@
+spring:
+  application:
+    #name: config-client
+    name: datasource  #注意这里的名字一定要和github上面 datasource-dev.properties 前缀的名称一样，否则会找不到使用的属性值java.lang.IllegalArgumentException: Could not resolve placeholder 'profile' in value "${profile}"
+  cloud:
+    config:
+      uri: http://localhost:9001/
+      profile: dev  #指令
+      #label: master  #master分支
+      label: dev002  #dev分支
+      name: ${spring.application.name},redis  #多个配置文件使用,分开
+  rabbitmq:
+    host: localhost
+    port: 5673
+    username: guest
+    password: guest
