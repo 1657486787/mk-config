@@ -15,6 +15,7 @@
   <modules>
     <module>config-server</module>
     <module>config-client</module>
+    <module>config-client-bus</module>
   </modules>
 
 </project>
