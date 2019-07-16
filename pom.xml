@@ -16,6 +16,7 @@
   <modules>
       <module>mk-springcloud-config</module>
       <module>mk-apollo</module>
+      <module>mk-nacos</module>
   </modules>
 
 </project>
