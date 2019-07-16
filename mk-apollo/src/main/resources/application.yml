@@ -1,0 +1,11 @@
+server:
+  port: 9010
+
+app:
+  id: SampleApp
+apollo:
+  #meta: http://localhost:8080 #rureka地址
+  cacheDir: d:\opt\settings\server.properties
+  bootstrap:
+    enabled: true
+    namespaces: application,TEST1.ns1,nsp1.yml,nsp2  #application为默认的namespace,TEST1.ns1为公共的namespace,nsp1.yml为私有的namespace

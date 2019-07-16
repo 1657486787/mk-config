@@ -6,14 +6,16 @@
 
   <groupId>com.suns</groupId>
   <artifactId>mk-config</artifactId>
-  <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
 
   <name>mk-config</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <modules>
-    <module>mk-springcloud-config</module>
+      <module>mk-springcloud-config</module>
+      <module>mk-apollo</module>
   </modules>
 
 </project>
